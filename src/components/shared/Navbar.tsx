@@ -97,14 +97,14 @@ export default function Navbar() {
     <>
     <header className="fixed top-0 left-0 right-0 z-50 w-full px-6 md:px-12 py-5 flex items-center justify-between pointer-events-none">
       {/* Logo - Sol Taraf */}
-      <div className="pointer-events-auto w-[180px] md:w-[225px] flex items-center">
+      <div className="pointer-events-auto w-[200px] md:w-[260px] flex items-center">
         <Link href="/" className="flex items-center">
           <Image 
             src="/logos/Main_Logo_Beyaz.png" 
             alt="Renee DesignLab" 
-            width={200} 
-            height={60} 
-            className="h-[48px] md:h-[60px] w-auto object-contain"
+            width={240} 
+            height={72} 
+            className="h-[64px] md:h-[80px] w-auto object-contain"
             priority
           />
         </Link>
@@ -239,9 +239,9 @@ export default function Navbar() {
               <Image
                 src="/logos/Main_Logo_Beyaz.png"
                 alt="Renee DesignLab"
-                width={160}
-                height={48}
-                className="h-[44px] w-auto object-contain"
+                width={200}
+                height={60}
+                className="h-[56px] w-auto object-contain"
                 priority
               />
             </Link>
