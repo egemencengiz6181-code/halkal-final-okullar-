@@ -1,6 +1,5 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
 import { Quote } from 'lucide-react';
 
 interface TestimonialItem {
@@ -25,9 +24,9 @@ function TestimonialCard({ item }: { item: TestimonialItem }) {
 }
 
 function MarqueeRow({ items, direction }: { items: TestimonialItem[]; direction: 'left' | 'right' }) {
-  const doubled = [...items, ...items];
+  const doubled = [...(items ?? []), ...(items ?? [])];
   const animStyle: React.CSSProperties = {
-    animation: `marquee-${direction} ${items.length * 7}s linear infinite`,
+    animation: `marquee-${direction} ${(items?.length ?? 1) * 7}s linear infinite`,
     display: 'flex',
     width: 'max-content',
   };
@@ -42,13 +41,18 @@ function MarqueeRow({ items, direction }: { items: TestimonialItem[]; direction:
   );
 }
 
-export default function TestimonialsSection() {
-  const t = useTranslations('Testimonials');
-  const items = t.raw('items') as TestimonialItem[];
-
-  const mid = Math.ceil(items.length / 2);
-  const row1 = items.slice(0, mid);
-  const row2 = items.slice(mid);
+export default function TestimonialsSection({
+  items = [],
+  subtitle = '',
+  title = '',
+}: {
+  items?: TestimonialItem[];
+  subtitle?: string;
+  title?: string;
+}) {
+  const mid = Math.ceil((items?.length ?? 0) / 2);
+  const row1 = items?.slice(0, mid) ?? [];
+  const row2 = items?.slice(mid) ?? [];
 
   return (
     <section className="py-24 relative overflow-hidden">
@@ -58,10 +62,10 @@ export default function TestimonialsSection() {
 
       <div className="max-w-7xl mx-auto px-6 text-center mb-16 relative z-10">
         <h2 className="text-sm font-bold uppercase tracking-[0.3em] text-primary mb-4">
-          {t('subtitle')}
+          {subtitle}
         </h2>
         <h3 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-slate-900 to-slate-900/40 dark:from-white dark:to-white/40 bg-clip-text text-transparent">
-          {t('title')}
+          {title}
         </h3>
       </div>
 
