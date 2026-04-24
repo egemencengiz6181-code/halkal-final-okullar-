@@ -99,21 +99,21 @@ export default function Navbar() {
 
   return (
     <>
-    <header className="fixed top-0 left-0 right-0 z-50 w-full px-6 md:px-12 py-5 flex items-center justify-between pointer-events-none">
+    <header className="fixed top-0 left-0 right-0 z-50 w-full px-6 md:px-12 py-3 md:py-5 flex items-center justify-between pointer-events-none">
       {/* Mobile glassmorphism background band */}
       <div
         className="absolute inset-0 md:hidden bg-black/40 backdrop-blur-[25px] border-b border-white/10 pointer-events-none"
         style={{ WebkitBackdropFilter: 'blur(25px)' }}
       />
       {/* Logo - Sol Taraf */}
-      <div className="pointer-events-auto w-[280px] md:w-[420px] flex items-center relative">
+      <div className="pointer-events-auto flex-1 flex items-center relative">
         <Link href="/" className="flex items-center">
           <Image 
-                      src="/logos/final%20logo%20png.png" 
+            src="/logos/final%20logo%20png.png" 
             alt="Halkalı Final LGS Dershanesi" 
-            width={480} 
-            height={144} 
-            className="h-[128px] md:h-[160px] w-auto object-contain"
+            width={1540} 
+            height={598} 
+            className="h-[44px] md:h-[56px] w-auto object-contain"
             priority
           />
         </Link>
@@ -208,7 +208,7 @@ export default function Navbar() {
       </div>
 
       {/* Sağ taraf - Analiz butonu (sadece desktop) */}
-      <div className="pointer-events-auto hidden md:flex items-center justify-end w-[225px]">
+      <div className="pointer-events-auto hidden md:flex items-center justify-end flex-1">
         <AnalysisModal />
       </div>
 
@@ -245,14 +245,14 @@ export default function Navbar() {
           style={{ WebkitBackdropFilter: 'blur(30px)' }}
         >
           {/* Üst bar */}
-          <div className="flex items-center justify-between px-6 py-5 border-b border-white/10">
+          <div className="flex items-center justify-between px-6 py-4 border-b border-white/10">
             <Link href="/" onClick={() => setIsMobileOpen(false)}>
               <Image
                 src="/logos/final%20logo%20png.png"
                 alt="Halkalı Final LGS Dershanesi"
-                width={400}
-                height={120}
-                className="h-[112px] w-auto object-contain"
+                width={1540}
+                height={598}
+                className="h-[40px] w-auto object-contain"
                 priority
               />
             </Link>

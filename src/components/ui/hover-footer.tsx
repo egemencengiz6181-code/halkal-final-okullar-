@@ -134,9 +134,9 @@ export default function HoverFooter() {
               <Image
                 src="/logos/final%20logo%20png.png"
                 alt="Halkalı Final LGS Dershanesi"
-                width={360}
-                height={120}
-                className="h-32 w-auto object-contain"
+                width={1540}
+                height={598}
+                className="h-14 w-auto object-contain"
               />
             </Link>
             <p className="text-sm text-slate-500 dark:text-white/30 leading-relaxed max-w-xs">
