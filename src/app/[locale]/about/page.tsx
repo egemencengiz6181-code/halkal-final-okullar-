@@ -107,30 +107,6 @@ export default function AboutPage() {
             </motion.div>
           ))}
         </div>
-
-        {/* Premium Founder Bölümü */}
-        <motion.div 
-          className="relative py-32 border-t border-black/5 dark:border-white/5 overflow-hidden group"
-          variants={fadeInUp}
-        >
-          {/* Arka plan monogram */}
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[20rem] font-black text-black/[0.02] dark:text-white/[0.02] select-none pointer-events-none group-hover:text-primary/[0.03] transition-colors duration-1000">
-            NA
-          </div>
-          
-          <div className="relative flex flex-col items-center text-center">
-            <motion.div 
-              className="w-20 h-px bg-primary/30 mb-12"
-              whileInView={{ width: "120px" }}
-              transition={{ duration: 1.5 }}
-            />
-            <h2 className="text-4xl md:text-6xl font-serif italic mb-4 tracking-tight">Nazmi Arıkan</h2>
-            <p className="text-primary-light tracking-[0.5em] uppercase text-xs mb-10 font-bold">{t('founder.role')}</p>
-            <p className="max-w-xl text-foreground/40 font-light text-lg leading-relaxed italic">
-              “{t('founder.text')}”
-            </p>
-          </div>
-        </motion.div>
       </motion.section>
 
       {/* Sayfa sonu geçişi ve Harita */}

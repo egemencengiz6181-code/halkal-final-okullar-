@@ -79,6 +79,7 @@ export default function LetsWorkSection() {
             {t('title')}
           </motion.h2>
 
+          {t('subtitle') && (
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -88,6 +89,7 @@ export default function LetsWorkSection() {
           >
             {t('subtitle')}
           </motion.p>
+          )}
 
           {/* CTA buttons */}
           <motion.div

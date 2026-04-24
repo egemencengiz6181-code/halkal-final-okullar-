@@ -11,7 +11,7 @@ export default function Footer() {
   const nt = useTranslations('Navbar');
 
   const socialLinks = [
-    { icon: <Instagram className="w-5 h-5" />, href: "https://www.instagram.com/nazmi.arikanhalkali/", label: "Instagram" },
+    { icon: <Instagram className="w-5 h-5" />, href: "https://www.instagram.com/halkalifinal_lgs/", label: "Instagram" },
   ];
 
   const navLinks = [

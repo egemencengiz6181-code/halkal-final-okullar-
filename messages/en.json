@@ -39,10 +39,10 @@
     "items": {
       "5-sinif": {
         "title": "5th Grade",
-        "description": "Strong subject foundations. 2 days/weekend, 12 lesson hours/week, study sessions and guidance support.",
+        "description": "Strong subject foundations. 2 days/weekend, +16 lesson hours/week, study sessions and guidance support.",
         "hero_quote": "A strong foundation builds a bright future.",
         "intro": "Our 5th grade program aims to help students build a solid foundation in core subjects and adapt early to the LGS process.",
-        "body": "Students attend courses 2 days on weekends (Saturday and Sunday). They receive 12 lesson hours in total. Extra weekly question-solving study sessions are held. Students attend study sessions 1 day per week on weekdays. They can ask their questions during one-on-one question-solving hours with teachers. Through the Kunduz program, students can ask teachers questions at any time and place. Recognition and attention tests are conducted by our Guidance Unit. Students' emotional and psychological states are reported. Progress charts are saved to our digital application. Students reinforce their knowledge through new-generation questions. Activities include exam preparation, LGS familiarization, supplementary school subject training, reading activities, attention-improving exercises, reading comprehension and test technique development.",
+        "body": "Students attend courses 2 days on weekends (Saturday and Sunday). They receive +16 lesson hours in total. Extra weekly question-solving study sessions are held. Students attend study sessions 2 days per week on weekdays. They can ask their questions during one-on-one question-solving hours with teachers. Through the Kunduz program, students can ask teachers questions at any time and place. Recognition and attention tests are conducted by our Guidance Unit. Students' emotional and psychological states are reported. Progress charts are saved to our digital application. Students reinforce their knowledge through new-generation questions. Activities include exam preparation, LGS familiarization, supplementary school subject training, reading activities, attention-improving exercises, reading comprehension and test technique development.",
         "strategy_title": "Program Content",
         "phase1_title": "Core Subjects",
         "phase1_text": "In-depth coverage of Math, Science, Turkish and Social Studies topics.",
@@ -52,8 +52,8 @@
         "phase3_text": "Advisor teacher and guidance unit support that individually monitors each student's development.",
         "result_title": "Outcomes",
         "result_text": "Strong foundational knowledge, exam habits and a ready start toward the LGS process.",
-        "tech_title": "12 lesson hours/week · 2 days/weekend",
-        "tech_intro": "Weekend course (Sat-Sun), 1 weekday study session. Total 12 lesson hours.",
+        "tech_title": "+16 lesson hours/week · 2 days/weekend",
+        "tech_intro": "Weekend course (Sat-Sun), 2 weekday study sessions. Total +16 lesson hours.",
         "tech_tools": "Subject instruction · Test solving · Study sessions · Guidance",
         "features": [
           "Subject instruction",
@@ -62,14 +62,14 @@
           "Guidance unit"
         ],
         "meta_title": "5th Grade Program | Halkalı Final LGS Academy",
-        "meta_description": "Comprehensive 12-hour-per-week program with study sessions and guidance for 5th grade students."
+        "meta_description": "Comprehensive +16-hour-per-week program with study sessions and guidance for 5th grade students."
       },
       "6-sinif": {
         "title": "6th Grade",
-        "description": "Reinforcing middle school foundations. 2 days/weekend, 12 lesson hours/week, study sessions and guidance support.",
+        "description": "Reinforcing middle school foundations. 2 days/weekend, +16 lesson hours/week, study sessions and guidance support.",
         "hero_quote": "Every reinforced piece of knowledge brings you one step closer to LGS.",
         "intro": "Our 6th grade program ensures students deeply grasp the middle school curriculum and transition to 7th grade prepared.",
-        "body": "Students attend courses 2 days on weekends (Saturday and Sunday). They receive 12 lesson hours in total. Extra weekly question-solving study sessions are held. Students attend study sessions 1 day per week on weekdays. They can ask their questions during one-on-one question-solving hours with teachers. Through the Kunduz program, students can ask teachers questions at any time and place. Recognition and attention tests are conducted by our Guidance Unit. Students' emotional and psychological states are reported. Progress charts are saved to our digital application. Students reinforce their knowledge through new-generation questions. Activities include exam preparation, LGS familiarization, supplementary school subject training, reading activities, attention-improving exercises, reading comprehension and test technique development.",
+        "body": "Students attend courses 2 days on weekends (Saturday and Sunday). They receive +16 lesson hours in total. Extra weekly question-solving study sessions are held. Students attend study sessions 2 days per week on weekdays. They can ask their questions during one-on-one question-solving hours with teachers. Through the Kunduz program, students can ask teachers questions at any time and place. Recognition and attention tests are conducted by our Guidance Unit. Students' emotional and psychological states are reported. Progress charts are saved to our digital application. Students reinforce their knowledge through new-generation questions. Activities include exam preparation, LGS familiarization, supplementary school subject training, reading activities, attention-improving exercises, reading comprehension and test technique development.",
         "strategy_title": "Program Content",
         "phase1_title": "Core Subjects",
         "phase1_text": "In-depth coverage of Math, Science, Turkish and Social Studies topics.",
@@ -79,8 +79,8 @@
         "phase3_text": "Advisor teacher and guidance unit support that individually monitors each student's development.",
         "result_title": "Outcomes",
         "result_text": "Strong foundational knowledge, exam habits and a smooth transition to the 7th grade program.",
-        "tech_title": "12 lesson hours/week · 2 days/weekend",
-        "tech_intro": "Weekend course (Sat-Sun), 1 weekday study session. Total 12 lesson hours.",
+        "tech_title": "+16 lesson hours/week · 2 days/weekend",
+        "tech_intro": "Weekend course (Sat-Sun), 2 weekday study sessions. Total +16 lesson hours.",
         "tech_tools": "Subject instruction · Test solving · Study sessions · Guidance",
         "features": [
           "Subject instruction",
@@ -89,14 +89,14 @@
           "Guidance unit"
         ],
         "meta_title": "6th Grade Program | Halkalı Final LGS Academy",
-        "meta_description": "Comprehensive 12-hour-per-week program with study sessions and guidance for 6th grade students."
+        "meta_description": "Comprehensive +16-hour-per-week program with study sessions and guidance for 6th grade students."
       },
       "7-sinif": {
         "title": "7th Grade",
-        "description": "Preparation for 8th grade by strengthening middle school foundations. 12 lesson hours per week, individual guidance and one-on-one Q&A.",
+        "description": "Preparation for 8th grade by strengthening middle school foundations. +16 lesson hours per week, individual guidance and one-on-one Q&A.",
         "hero_quote": "A strong foundation builds a bright future.",
         "intro": "Our 7th grade program aims to help students build a solid foundation in Math, Science, Turkish and Social Studies.",
-        "body": "Students attend courses 2 days on weekends and 1 day per week on weekdays. They receive 12 lesson hours in total. Question-solving study sessions and one-on-one question-solving are also conducted. They can ask their questions during one-on-one question-solving hours with teachers. Through the Kunduz program, students can ask teachers questions at any time and place. Students participate in weekly individual counseling sessions, personal study schedules are prepared and checked by our guidance unit, with parents informed weekly. Library access is available 7 days a week from 09:00 to 19:00. Professional tests and inventories are applied for each student. Attention tests are conducted and students' psychological and emotional states are added to their files. Each student is given a recognition exam and their level is determined. Individual study programs are prepared by our guidance units for each student. Students reinforce their knowledge through new-generation questions. Activities include exam preparation, LGS adaptation, test technique improvement, improving academic success, LGS mock exams, high school visits, speed reading and comprehension techniques, and attention-improving exercises. Study camps are organized including summer camp, mid-term camp, break camp and semester break camp.",
+        "body": "Students attend courses 2 days on weekends and 2 days per week on weekdays. They receive +16 lesson hours in total. Question-solving study sessions and one-on-one question-solving are also conducted. They can ask their questions during one-on-one question-solving hours with teachers. Through the Kunduz program, students can ask teachers questions at any time and place. Students participate in weekly individual counseling sessions, personal study schedules are prepared and checked by our guidance unit, with parents informed weekly. Library access is available 7 days a week from 09:00 to 19:00. Professional tests and inventories are applied for each student. Attention tests are conducted and students' psychological and emotional states are added to their files. Each student is given a recognition exam and their level is determined. Individual study programs are prepared by our guidance units for each student. Students reinforce their knowledge through new-generation questions. Activities include exam preparation, LGS adaptation, test technique improvement, improving academic success, LGS mock exams, high school visits, speed reading and comprehension techniques, and attention-improving exercises. Study camps are organized including summer camp, mid-term camp, break camp and semester break camp.",
         "strategy_title": "Program Content",
         "phase1_title": "Core Subjects",
         "phase1_text": "In-depth coverage of Math, Science, Turkish and Social Studies topics.",
@@ -106,8 +106,8 @@
         "phase3_text": "Advisor teacher support that individually monitors each student's development process.",
         "result_title": "Outcomes",
         "result_text": "Strong foundational knowledge, exam habits and smooth transition to the 8th grade program.",
-        "tech_title": "12 lesson hours/week · 2 weekend + 1 weekday",
-        "tech_intro": "2 days on weekends and 1 day on weekdays. Total 12 lesson hours. Study sessions and one-on-one Q&A included.",
+        "tech_title": "+16 lesson hours/week · 2 weekend + 2 weekday",
+        "tech_intro": "2 days on weekends and 2 days on weekdays. Total +16 lesson hours. Study sessions and one-on-one Q&A included.",
         "tech_tools": "Subject instruction · Test solving · Individual guidance · Camp programs",
         "features": [
           "Subject instruction",
@@ -116,25 +116,25 @@
           "Camp programs"
         ],
         "meta_title": "7th Grade Program | Halkalı Final LGS Academy",
-        "meta_description": "Comprehensive 12-hour-per-week program with individual guidance and one-on-one Q&A for 7th grade students."
+        "meta_description": "Comprehensive +16-hour-per-week program with individual guidance and one-on-one Q&A for 7th grade students."
       },
       "8-sinif": {
         "title": "8th Grade & LGS",
-        "description": "Intensive LGS preparation. 12 lesson hours/week, weekly mock exams, AI-powered analysis and individual guidance.",
+        "description": "Intensive LGS preparation. +16 lesson hours/week, weekly mock exams, AI-powered analysis and individual guidance.",
         "hero_quote": "With the right strategy and intensive study, your target school is within reach in LGS.",
         "intro": "Our 8th grade program is a comprehensive LGS-focused preparation process. It familiarizes students with the LGS format, maximizes their net score and closely monitors individual development.",
-        "body": "Students attend 2 days on weekends and 2 days on weekdays. They receive 12 lesson hours in total. Each student can solve questions one-on-one with their teacher. They can ask their questions during one-on-one question-solving hours with teachers. Through the Kunduz program, students can reach teachers at any time and place. Students take one mock exam per week. After each mock exam, analyses are conducted and question banks are created based on their level and weak areas. The Baykuş library program allows evening study sessions under teacher supervision. Students participate in weekly individual counseling sessions and personal study schedules are prepared and checked by our guidance unit. Library access is available 7 days a week from 09:00 to 19:00. Motivation activities are conducted to eliminate distractions. LGS mock provizionals are held and AI-powered individual question banks are created. Guidance units prepare and monitor weekly individual programs. Activities include exam preparation, quality high school visits, goal setting, motivation events, reading comprehension and speed reading. Study camps include summer camp, mid-term camp, break camp and semester break camp.",
+        "body": "Students attend 2 days on weekends and 2 days on weekdays. They receive +16 lesson hours in total. Each student can solve questions one-on-one with their teacher. They can ask their questions during one-on-one question-solving hours with teachers. Through the Kunduz program, students can reach teachers at any time and place. Students take one mock exam per week. After each mock exam, analyses are conducted and question banks are created based on their level and weak areas. The Baykuş library program (Hours: 19:00-22:00) allows evening study sessions under teacher supervision. Students participate in weekly individual counseling sessions and personal study schedules are prepared and checked by our guidance unit. Library access is available 7 days a week from 09:00 to 19:00. Motivation activities are conducted to eliminate distractions. LGS mock provizionals are held and AI-powered individual question banks are created. Guidance units prepare and monitor weekly individual programs. Activities include exam preparation, quality high school visits, goal setting, motivation events, reading comprehension and speed reading. Study camps include summer camp, mid-term camp, break camp and semester break camp.",
         "strategy_title": "LGS Preparation Strategy",
         "phase1_title": "Topic Reinforcement & Mock Exams",
         "phase1_text": "Systematic revision of all LGS topics and weekly mock exams to address weak points.",
         "phase2_title": "AI-Powered Analysis",
-        "phase2_text": "Mock exam analyses and AI-powered individual question bank creation. Bayküş library program.",
+        "phase2_text": "Mock exam analyses and AI-powered individual question bank creation. Bayküş library program (Hours: 19:00-22:00).",
         "phase3_title": "Guidance & Process Management",
         "phase3_text": "Weekly individual guidance, motivation activities, quality high school introductions and camp programs.",
         "result_title": "Goal",
         "result_text": "Achieving a high net score in LGS and placing in a science high school, Anatolian high school or target quality high school.",
-        "tech_title": "12 lesson hours/week · Weekly mock exam · AI Analysis",
-        "tech_intro": "2 days on weekends and 2 days on weekdays. Total 12 lesson hours. Weekly mock exam and AI-powered analysis.",
+        "tech_title": "+16 lesson hours/week · Weekly mock exam · AI Analysis",
+        "tech_intro": "2 days on weekends and 2 days on weekdays. Total +16 lesson hours. Weekly mock exam and AI-powered analysis.",
         "tech_tools": "LGS topic revision · Weekly mock exam · AI analysis · Individual guidance",
         "features": [
           "LGS topic revision",
@@ -143,9 +143,8 @@
           "Individual guidance"
         ],
         "meta_title": "8th Grade & LGS Preparation | Halkalı Final LGS Academy",
-        "meta_description": "Intensive 12-hour-per-week preparation program for LGS with weekly mock exams and AI-powered analysis."
+        "meta_description": "Intensive +16-hour-per-week preparation program for LGS with weekly mock exams and AI-powered analysis."
       },
-
       "deneme-kulubu": {
         "title": "Mock Exam Club",
         "description": "Regular LGS mock exams, net analysis and peer learning. Open to all grade levels.",
@@ -205,7 +204,7 @@
         "description": "VIP classes of 5-8 students, 16 lesson hours/week, 45 mock exams and 40 hours of individual tutoring.",
         "hero_quote": "In this final year before YKS, every student deserves individual attention – our VIP program delivers exactly that.",
         "intro": "Our 12th Grade VIP program keeps class sizes between 5-8 students. Students attend a total of 16 lesson hours per week (two days on weekends, two days on weekdays). Each student can solve questions one-on-one with their teacher and receive up to 40 individual tutoring hours throughout the year.",
-        "body": "Through the Kunduz program, students can ask teachers questions anytime and anywhere. The Baykuş library program allows evening study sessions under teacher supervision. Mock exams are held every two weeks, and personalized study schedules targeting weak areas are prepared from analyses. Education coaches monitor these schedules weekly and share updates with parents. AI-powered individual question banks are created, and motivation workshops and concentration tests are applied regularly. University visits, goal-setting sessions, speed reading techniques, summer camps and mid-term camps are all integral parts of the program.",
+        "body": "Through the Kunduz program, students can ask teachers questions anytime and anywhere. The Baykuş library program (Hours: 19:00-22:00) allows evening study sessions under teacher supervision. Mock exams are held every two weeks, and personalized study schedules targeting weak areas are prepared from analyses. Education coaches monitor these schedules weekly and share updates with parents. AI-powered individual question banks are created, and motivation workshops and concentration tests are applied regularly. University visits, goal-setting sessions, speed reading techniques, summer camps and mid-term camps are all integral parts of the program.",
         "strategy_title": "VIP 12th Grade Learning Model",
         "phase1_title": "Small Group & Intensive Lessons",
         "phase1_text": "16 lesson hours/week in classes of 5-8 students. Individual attention guaranteed with up to 40 hours of personal tutoring per year.",
@@ -223,7 +222,7 @@
           "16 lesson hours/week",
           "45 TYT-AYT mock exams",
           "40 hours of individual tutoring",
-          "Kunduz & Baykuş programs",
+          "Kunduz & Baykuş programs (19:00-22:00)",
           "AI-powered analysis"
         ],
         "meta_title": "12th Grade VIP | Halkalı Final LGS Academy",
@@ -234,7 +233,7 @@
         "description": "VIP classes of 5-8 students, 18 lesson hours/week, 2 mock exams per week and 40 hours of individual tutoring.",
         "hero_quote": "Preparing for YKS one more year is not starting over – it is continuing stronger.",
         "intro": "Our Graduate VIP program keeps class sizes between 5-8 students. Students receive a total of 18 lesson hours per week, take individual question-solving sessions with their teachers, and can access up to 40 individual tutoring hours throughout the year.",
-        "body": "Through the Kunduz program, students can reach teachers at any time and place. The Baykuş library program allows evening study under teacher supervision. Two mock exams are held per week, and AI-powered analyses create personalized question banks tailored to each student's level and weak areas. Weekly individual counseling sessions are conducted, coaches monitor programs and update parents regularly. The program begins with a Summer Camp for an early start, and university introduction events, motivation activities and camp programs are conducted throughout the year.",
+        "body": "Through the Kunduz program, students can reach teachers at any time and place. The Baykuş library program (Hours: 19:00-22:00) allows evening study under teacher supervision. Two mock exams are held per week, and AI-powered analyses create personalized question banks tailored to each student's level and weak areas. Weekly individual counseling sessions are conducted, coaches monitor programs and update parents regularly. The program begins with a Summer Camp for an early start, and university introduction events, motivation activities and camp programs are conducted throughout the year.",
         "strategy_title": "VIP Graduate Learning Model",
         "phase1_title": "Small Group & Intensive Lessons",
         "phase1_text": "18 lesson hours/week in classes of 5-8 students. Up to 40 hours of individual tutoring and continuous teacher access.",
@@ -342,12 +341,12 @@
   },
   "WhyUs": {
     "title": "Why Halkalı Final LGS Academy?",
-    "description": "We make a difference with an experienced teaching staff, individual student tracking, the Bayküş Library and proven LGS success.",
+    "description": "We make a difference with an experienced teaching staff, individual student tracking, the Bayküş Library (Hours: 19:00-22:00) and proven LGS success.",
     "cta": "Get a Free Consultation"
   },
   "LetsWork": {
     "title": "Ready to Start?",
-    "subtitle": "Set your goals with a free consultation",
+    "subtitle": "",
     "available": "Open for enrollment",
     "cta": "Apply Now"
   },

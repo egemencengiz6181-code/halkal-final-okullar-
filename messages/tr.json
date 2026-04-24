@@ -39,10 +39,10 @@
     "items": {
       "5-sinif": {
         "title": "5. Sınıf",
-        "description": "Temel derslerde sağlam altyapı. Hafta sonu 2 gün, haftalık 12 ders saati, etüt ve rehberlik desteği.",
+        "description": "Temel derslerde sağlam altyapı. Hafta sonu 2 gün, haftalık +16 ders saati, etüt ve rehberlik desteği.",
         "hero_quote": "Sağlam bir temel, parlak bir gelecek inşa eder.",
         "intro": "5. sınıf programımız, öğrencilerin temel derslerinde güçlü altyapı oluşturmasını ve LGS sürecine erken adapte olmasını hedefler.",
-        "body": "Öğrencilerimiz hafta sonu 2 gün kursa gelmektedir. Cumartesi ve Pazar günü yapılan kurslarımızda temel dersleri almaktadırlar. Toplam 12 ders saati görmektedirler. Ekstra haftalık soru çözüm etütleri yapılmaktadır. Öğrencilerimiz hafta içi 1 gün etüt derslerine gelmektedir. Öğretmenlerle birebir soru çözüm saatlerinde sorularını sorabilmektedirler. Kunduz programı ile öğrencimiz istediği yer ve saatte sorularını öğretmenlere sorabilmektedir. Öğrencilerimiz için Rehberlik birimimiz tarafından tanıma ve dikkat testleri yapılır. Öğrencilerimizin duygusal ve psikolojik durumları rapor edilir. Başarı grafikleri dijital uygulamamıza kaydedilir. Öğrencilerimizin yeni nesil sorularla öğrendiklerini pekiştirmesi sağlanır. Öğrencilerimiz için yazılılara hazırlık, LGS sınavını tanıma, okul derslerine yardımcı olacak eğitimler, okuma etkinlikleri, dikkati artırmaya yönelik çalışmalar, okuduğunu anlama çalışmaları ve test tekniği geliştirme çalışmaları yapılmaktadır.",
+        "body": "Öğrencilerimiz hafta sonu 2 gün kursa gelmektedir. Cumartesi ve Pazar günü yapılan kurslarımızda temel dersleri almaktadırlar. Toplam +16 saat ders görmektedirler. Ekstra haftalık soru çözüm etütleri yapılmaktadır. Öğrencilerimiz hafta içi 2 gün etüt derslerine gelmektedir. Öğretmenlerle birebir soru çözüm saatlerinde sorularını sorabilmektedirler. Kunduz programı ile öğrencimiz istediği yer ve saatte sorularını öğretmenlere sorabilmektedir. Öğrencilerimiz için Rehberlik birimimiz tarafından tanıma ve dikkat testleri yapılır. Öğrencilerimizin duygusal ve psikolojik durumları rapor edilir. Başarı grafikleri dijital uygulamamıza kaydedilir. Öğrencilerimizin yeni nesil sorularla öğrendiklerini pekiştirmesi sağlanır. Öğrencilerimiz için yazılılara hazırlık, LGS sınavını tanıma, okul derslerine yardımcı olacak eğitimler, okuma etkinlikleri, dikkati artırmaya yönelik çalışmalar, okuduğunu anlama çalışmaları ve test tekniği geliştirme çalışmaları yapılmaktadır.",
         "strategy_title": "Program İçeriği",
         "phase1_title": "Temel Dersler",
         "phase1_text": "Matematik, Fen, Türkçe ve Sosyal Bilgiler konularının derinlemesine işlenmesi.",
@@ -52,8 +52,8 @@
         "phase3_text": "Her öğrencinin gelişim sürecini bireysel olarak izleyen danışman öğretmen ve rehberlik birimi desteği.",
         "result_title": "Kazanımlar",
         "result_text": "Güçlü temel bilgi, sınav alışkanlığı ve LGS sürecine hazır başlangıç.",
-        "tech_title": "Haftalık 12 ders saati · Hafta sonu 2 gün",
-        "tech_intro": "Hafta sonu 2 gün (Cumartesi-Pazar) kurs, hafta içi 1 gün etüt. Toplam 12 ders saati.",
+        "tech_title": "Haftalık +16 ders saati · Hafta sonu 2 gün",
+        "tech_intro": "Hafta sonu 2 gün (Cumartesi-Pazar) kurs, hafta içi 2 gün etüt. Toplam +16 saat ders.",
         "tech_tools": "Konu anlatımı · Test çözümü · Etüt · Rehberlik",
         "features": [
           "Konu anlatımı",
@@ -62,14 +62,14 @@
           "Rehberlik birimi"
         ],
         "meta_title": "5. Sınıf Programı | Halkalı Final LGS Dershanesi",
-        "meta_description": "5. sınıf öğrencileri için haftalık 12 ders saati, etüt ve rehberlik destekli kapsamlı program."
+        "meta_description": "5. sınıf öğrencileri için haftalık +16 ders saati, etüt ve rehberlik destekli kapsamlı program."
       },
       "6-sinif": {
         "title": "6. Sınıf",
-        "description": "Ortaokul temellerini pekiştirme. Hafta sonu 2 gün, haftalık 12 ders saati, etüt ve rehberlik desteği.",
+        "description": "Ortaokul temellerini pekiştirme. Hafta sonu 2 gün, haftalık +16 ders saati, etüt ve rehberlik desteği.",
         "hero_quote": "Pekişen her bilgi, LGS'ye bir adım daha yaklaştırır.",
         "intro": "6. sınıf programımız, öğrencilerin ortaokul müfredatını derinlemesine kavramasını ve 7. sınıfa hazırlıklı geçmesini sağlar.",
-        "body": "Öğrencilerimiz hafta sonu 2 gün kursa gelmektedir. Cumartesi ve Pazar günü yapılan kurslarımızda temel dersleri almaktadırlar. Toplam 12 ders saati görmektedirler. Ekstra haftalık soru çözüm etütleri yapılmaktadır. Öğrencilerimiz hafta içi 1 gün etüt derslerine gelmektedir. Öğretmenlerle birebir soru çözüm saatlerinde sorularını sorabilmektedirler. Kunduz programı ile öğrencimiz istediği yer ve saatte sorularını öğretmenlere sorabilmektedir. Öğrencilerimiz için Rehberlik birimimiz tarafından tanıma ve dikkat testleri yapılır. Öğrencilerimizin duygusal ve psikolojik durumları rapor edilir. Başarı grafikleri dijital uygulamamıza kaydedilir. Öğrencilerimizin yeni nesil sorularla öğrendiklerini pekiştirmesi sağlanır. Öğrencilerimiz için yazılılara hazırlık, LGS sınavını tanıma, okul derslerine yardımcı olacak eğitimler, okuma etkinlikleri, dikkati artırmaya yönelik çalışmalar, okuduğunu anlama çalışmaları ve test tekniği geliştirme çalışmaları yapılmaktadır.",
+        "body": "Öğrencilerimiz hafta sonu 2 gün kursa gelmektedir. Cumartesi ve Pazar günü yapılan kurslarımızda temel dersleri almaktadırlar. Toplam +16 saat ders görmektedirler. Ekstra haftalık soru çözüm etütleri yapılmaktadır. Öğrencilerimiz hafta içi 2 gün etüt derslerine gelmektedir. Öğretmenlerle birebir soru çözüm saatlerinde sorularını sorabilmektedirler. Kunduz programı ile öğrencimiz istediği yer ve saatte sorularını öğretmenlere sorabilmektedir. Öğrencilerimiz için Rehberlik birimimiz tarafından tanıma ve dikkat testleri yapılır. Öğrencilerimizin duygusal ve psikolojik durumları rapor edilir. Başarı grafikleri dijital uygulamamıza kaydedilir. Öğrencilerimizin yeni nesil sorularla öğrendiklerini pekiştirmesi sağlanır. Öğrencilerimiz için yazılılara hazırlık, LGS sınavını tanıma, okul derslerine yardımcı olacak eğitimler, okuma etkinlikleri, dikkati artırmaya yönelik çalışmalar, okuduğunu anlama çalışmaları ve test tekniği geliştirme çalışmaları yapılmaktadır.",
         "strategy_title": "Program İçeriği",
         "phase1_title": "Temel Dersler",
         "phase1_text": "Matematik, Fen, Türkçe ve Sosyal Bilgiler konularının derinlemesine işlenmesi.",
@@ -79,8 +79,8 @@
         "phase3_text": "Her öğrencinin gelişim sürecini bireysel olarak izleyen danışman öğretmen ve rehberlik birimi desteği.",
         "result_title": "Kazanımlar",
         "result_text": "Güçlü temel bilgi, sınav alışkanlığı ve 7. sınıf programına sorunsuz geçiş.",
-        "tech_title": "Haftalık 12 ders saati · Hafta sonu 2 gün",
-        "tech_intro": "Hafta sonu 2 gün (Cumartesi-Pazar) kurs, hafta içi 1 gün etüt. Toplam 12 ders saati.",
+        "tech_title": "Haftalık +16 ders saati · Hafta sonu 2 gün",
+        "tech_intro": "Hafta sonu 2 gün (Cumartesi-Pazar) kurs, hafta içi 2 gün etüt. Toplam +16 saat ders.",
         "tech_tools": "Konu anlatımı · Test çözümü · Etüt · Rehberlik",
         "features": [
           "Konu anlatımı",
@@ -89,14 +89,14 @@
           "Rehberlik birimi"
         ],
         "meta_title": "6. Sınıf Programı | Halkalı Final LGS Dershanesi",
-        "meta_description": "6. sınıf öğrencileri için haftalık 12 ders saati, etüt ve rehberlik destekli kapsamlı program."
+        "meta_description": "6. sınıf öğrencileri için haftalık +16 ders saati, etüt ve rehberlik destekli kapsamlı program."
       },
       "7-sinif": {
         "title": "7. Sınıf",
-        "description": "Ortaokul temellerini güçlendirerek 8. sınıfa hazırlık. Haftalık 12 ders saati, bireysel rehberlik ve birebir soru çözümü.",
+        "description": "Ortaokul temellerini güçlendirerek 8. sınıfa hazırlık. Haftalık +16 ders saati, bireysel rehberlik ve birebir soru çözümü.",
         "hero_quote": "Sağlam bir temel, parlak bir gelecek inşa eder.",
         "intro": "7. sınıf programımız, öğrencilerin Matematik, Fen, Türkçe ve Sosyal derslerinde sağlam altyapı oluşturmasını hedefler.",
-        "body": "Öğrencilerimiz hafta sonu 2 gün hafta içi 1 gün kursa gelmektedirler. Toplam 12 saat ders görmektedirler. Ayrıca soru çözüm etütleri ve birebir soru çözümü yapılmaktadır. Öğretmenlerle birebir soru çözüm saatlerinde sorularını sorabilmektedirler. Kunduz programı ile öğrencimiz istediği yer ve saatte sorularını öğretmenlere sorabilmektedir. Haftalık bireysel rehberlik görüşmelerine katılıp özel ders çalışma programı yapılır ve her hafta bu programlar rehberlik birimimizce kontrol edilerek veliye bilgi verilir. Haftanın 7 günü 09.00 – 19.00 arasında kütüphanemizde ders çalışma imkanına sahiptirler. Her öğrencimiz için mesleki test ve envanterler uygulanır. Dikkat testi yapılır ve öğrencilerimizin psikolojik ve duygusal durumları öğrenci dosyasına eklenir. Öğrenci tanıma sınavına alınır ve seviyesi belirlenir. Her öğrenciye rehberlik birimlerimizce bireysel ders çalışma programı hazırlanır. Öğrencilerimizin yeni nesil sorularla öğrendiklerini pekiştirmesi sağlanır. Öğrencilerimizin yazılılarına hazırlık, LGS sınavına adaptasyon, test tekniklerini geliştirme, okul akademik başarısını artırma, LGS deneme provaları, Okul (Lise) gezileri, hızlı okuma teknikleri ve okuduğunu anlama, dikkat artırmaya yönelik çalışmalar yapılır. Öğrencilerimize Yaz kampı, ara dönem kampı, ara tatil ve yarıyıl tatil kampı olmak üzere ders çalışma kampları yapılır. Ayrıca döneme Yaz Kampı kurslarımıza katılım sağlayabilmektedirler.",
+        "body": "Öğrencilerimiz hafta sonu 2 gün hafta içi 2 gün kursa gelmektedirler. Toplam +16 saat ders görmektedirler. Ayrıca soru çözüm etütleri ve birebir soru çözümü yapılmaktadır. Öğretmenlerle birebir soru çözüm saatlerinde sorularını sorabilmektedirler. Kunduz programı ile öğrencimiz istediği yer ve saatte sorularını öğretmenlere sorabilmektedir. Haftalık bireysel rehberlik görüşmelerine katılıp özel ders çalışma programı yapılır ve her hafta bu programlar rehberlik birimimizce kontrol edilerek veliye bilgi verilir. Haftanın 7 günü 09.00 – 19.00 arasında kütüphanemizde ders çalışma imkanına sahiptirler. Her öğrencimiz için mesleki test ve envanterler uygulanır. Dikkat testi yapılır ve öğrencilerimizin psikolojik ve duygusal durumları öğrenci dosyasına eklenir. Öğrenci tanıma sınavına alınır ve seviyesi belirlenir. Her öğrenciye rehberlik birimlerimizce bireysel ders çalışma programı hazırlanır. Öğrencilerimizin yeni nesil sorularla öğrendiklerini pekiştirmesi sağlanır. Öğrencilerimizin yazılılarına hazırlık, LGS sınavına adaptasyon, test tekniklerini geliştirme, okul akademik başarısını artırma, LGS deneme provaları, Okul (Lise) gezileri, hızlı okuma teknikleri ve okuduğunu anlama, dikkat artırmaya yönelik çalışmalar yapılır. Öğrencilerimize Yaz kampı, ara dönem kampı, ara tatil ve yarıyıl tatil kampı olmak üzere ders çalışma kampları yapılır. Ayrıca döneme Yaz Kampı kurslarımıza katılım sağlayabilmektedirler.",
         "strategy_title": "Program İçeriği",
         "phase1_title": "Temel Dersler",
         "phase1_text": "Matematik, Fen, Türkçe ve Sosyal Bilgiler konularının derinlemesine işlenmesi.",
@@ -106,8 +106,8 @@
         "phase3_text": "Her öğrencinin gelişim sürecini bireysel olarak izleyen danışman öğretmen desteği.",
         "result_title": "Kazanımlar",
         "result_text": "Güçlü temel bilgi, sınav alışkanlığı ve 8. sınıf programına sorunsuz geçiş.",
-        "tech_title": "Haftalık 12 ders saati · Hafta sonu 2 + hafta içi 1 gün",
-        "tech_intro": "Hafta sonu 2 gün ve hafta içi 1 gün kurs. Toplam 12 saat ders. Etüt ve birebir soru çözümü dahil.",
+        "tech_title": "Haftalık +16 ders saati · Hafta sonu 2 + hafta içi 2 gün",
+        "tech_intro": "Hafta sonu 2 gün ve hafta içi 2 gün kurs. Toplam +16 saat ders. Etüt ve birebir soru çözümü dahil.",
         "tech_tools": "Konu anlatımı · Test çözümü · Bireysel rehberlik · Kamp programları",
         "features": [
           "Konu anlatımı",
@@ -116,25 +116,25 @@
           "Kamp programları"
         ],
         "meta_title": "7. Sınıf Programı | Halkalı Final LGS Dershanesi",
-        "meta_description": "7. sınıf öğrencileri için haftalık 12 ders saati, bireysel rehberlik ve birebir soru çözümü destekli program."
+        "meta_description": "7. sınıf öğrencileri için haftalık +16 ders saati, bireysel rehberlik ve birebir soru çözümü destekli program."
       },
       "8-sinif": {
         "title": "8. Sınıf & LGS",
-        "description": "LGS'ye yönelik yoğun hazırlık. Haftalık 12 ders saati, haftalık deneme, yapay zeka destekli analiz ve bireysel rehberlik.",
+        "description": "LGS'ye yönelik yoğun hazırlık. Haftalık +16 ders saati, haftalık deneme, yapay zeka destekli analiz ve bireysel rehberlik.",
         "hero_quote": "LGS'de doğru strateji ve yoğun çalışmayla hedef okul kapıda.",
         "intro": "8. sınıf programımız, LGS'ye odaklanan kapsamlı bir hazırlık sürecidir. Öğrencileri LGS formatına alıştırır, net artışını maksimize eder ve bireysel gelişimini yakından takip eder.",
-        "body": "Öğrencilerimiz hafta sonu 2 gün hafta içi 2 gün gelmektedir. Toplam 12 saat ders görmektedirler. Her öğrenci birebir soru çözümünü öğretmeniyle yapabilmektedir. Öğretmenlerle birebir soru çözüm saatlerinde sorularını sorabilmektedirler. Kunduz programı ile öğrencimiz istediği yer ve saatte sorularını öğretmenlere sorabilmektedir. Öğrencilerimiz haftada bir deneme olmaktadır. Her deneme sonrası deneme analizleri yapılarak seviyelerine uygun ve eksiklerine göre soru bankası oluşturulur. Baykuş kütüphane programıyla öğrencilerimiz akşam öğretmen eşliğinde kütüphanemizde ders çalışabilmektedir. Haftalık bireysel rehberlik görüşmelerine katılıp özel ders çalışma programı yapılır ve her hafta bu programlar rehberlik birimimizce kontrol edilerek veliye bilgi verilir. Haftanın 7 günü 09.00 – 19.00 arasında kütüphanemizde ders çalışma imkanına sahiptirler. LGS sınavına hazırlık aşamasının en önemli olduğu bu dönemde öğrencilerimizin dikkat testlerini uygulayıp dikkatlerini dağıtacak bütün uyaranları ortadan kaldırmaya yönelik motivasyon çalışmaları yapılır. Öğrencilerimize LGS deneme provaları yapılır ve yapay zeka destekli eğitim modeliyle eksiklikler belirlenip öğrencinin eksiklerini gidermesi için bireysel soru bankaları oluşturulur. Rehberlik birimimizce öğrencimize haftalık bireysel program hazırlanır ve program takip edilir. Yazılılara hazırlık, Nitelikli Liselerin gezileri ve tanıtımı, hedef oluşturma, motivasyon etkinlikleri, okuduğunu anlama ve hızlı okuma teknikleri iyileştirilir. Öğrencilerimize rehberlik birimlerimizce ve eğitim koçlarımız tarafından sınav netlerini artırmaya yönelik çalışmalar yapılır. Öğrencilerimize Yaz kampı, ara dönem kampı, ara tatil ve yarıyıl tatil kampı olmak üzere ders çalışma kampları yapılır. Öğrencilerimizin birçok yayından yeni nesil sorularla öğrendiklerini pekiştirmesi sağlanır. Ayrıca döneme Yaz Kampı ile başlangıç yaparak sınav dönemine erken başlanması sağlanır.",
+        "body": "Öğrencilerimiz hafta sonu 2 gün hafta içi 2 gün gelmektedir. Toplam +16 saat ders görmektedirler. Her öğrenci birebir soru çözümünü öğretmeniyle yapabilmektedir. Öğretmenlerle birebir soru çözüm saatlerinde sorularını sorabilmektedirler. Kunduz programı ile öğrencimiz istediği yer ve saatte sorularını öğretmenlere sorabilmektedir. Öğrencilerimiz haftada bir deneme olmaktadır. Her deneme sonrası deneme analizleri yapılarak seviyelerine uygun ve eksiklerine göre soru bankası oluşturulur. Baykuş kütüphane programıyla (Saat: 19-22 arasında) öğrencilerimiz akşam öğretmen eşliğinde kütüphanemizde ders çalışabilmektedir. Haftalık bireysel rehberlik görüşmelerine katılıp özel ders çalışma programı yapılır ve her hafta bu programlar rehberlik birimimizce kontrol edilerek veliye bilgi verilir. Haftanın 7 günü 09.00 – 19.00 arasında kütüphanemizde ders çalışma imkanına sahiptirler. LGS sınavına hazırlık aşamasının en önemli olduğu bu dönemde öğrencilerimizin dikkat testlerini uygulayıp dikkatlerini dağıtacak bütün uyaranları ortadan kaldırmaya yönelik motivasyon çalışmaları yapılır. Öğrencilerimize LGS deneme provaları yapılır ve yapay zeka destekli eğitim modeliyle eksiklikler belirlenip öğrencinin eksiklerini gidermesi için bireysel soru bankaları oluşturulur. Rehberlik birimimizce öğrencimize haftalık bireysel program hazırlanır ve program takip edilir. Yazılılara hazırlık, Nitelikli Liselerin gezileri ve tanıtımı, hedef oluşturma, motivasyon etkinlikleri, okuduğunu anlama ve hızlı okuma teknikleri iyileştirilir. Öğrencilerimize rehberlik birimlerimizce ve eğitim koçlarımız tarafından sınav netlerini artırmaya yönelik çalışmalar yapılır. Öğrencilerimize Yaz kampı, ara dönem kampı, ara tatil ve yarıyıl tatil kampı olmak üzere ders çalışma kampları yapılır. Öğrencilerimizin birçok yayından yeni nesil sorularla öğrendiklerini pekiştirmesi sağlanır. Ayrıca döneme Yaz Kampı ile başlangıç yaparak sınav dönemine erken başlanması sağlanır.",
         "strategy_title": "LGS Hazırlık Stratejisi",
         "phase1_title": "Konu Pekiştirme & Deneme",
         "phase1_text": "Tüm LGS konularının sistematik tekrarı ve haftalık deneme sınavları ile eksik noktaların giderilmesi.",
         "phase2_title": "Yapay Zeka Destekli Analiz",
-        "phase2_text": "Deneme analizleri ve yapay zeka destekli bireysel soru bankası oluşturma. Baykuş kütüphane programı.",
+        "phase2_text": "Deneme analizleri ve yapay zeka destekli bireysel soru bankası oluşturma. Baykuş kütüphane programı (Saat: 19-22 arasında).",
         "phase3_title": "Rehberlik & Süreç Yönetimi",
         "phase3_text": "Haftalık bireysel rehberlik, motivasyon çalışmaları, Nitelikli Lise tanıtımları ve kamp programları.",
         "result_title": "Hedef",
         "result_text": "LGS'de yüksek net ile fen lisesi, Anadolu lisesi veya hedef nitelikli liseye yerleşme.",
-        "tech_title": "Haftalık 12 ders saati · Haftalık deneme · Yapay Zeka Analizi",
-        "tech_intro": "Hafta sonu 2 gün, hafta içi 2 gün kurs. Toplam 12 saat ders. Haftalık deneme ve yapay zeka destekli analiz.",
+        "tech_title": "Haftalık +16 ders saati · Haftalık deneme · Yapay Zeka Analizi",
+        "tech_intro": "Hafta sonu 2 gün, hafta içi 2 gün kurs. Toplam +16 saat ders. Haftalık deneme ve yapay zeka destekli analiz.",
         "tech_tools": "LGS konu tekrarı · Haftalık deneme · Yapay zeka analizi · Bireysel rehberlik",
         "features": [
           "LGS konu tekrarı",
@@ -143,9 +143,8 @@
           "Bireysel rehberlik"
         ],
         "meta_title": "8. Sınıf & LGS Hazırlık | Halkalı Final LGS Dershanesi",
-        "meta_description": "LGS'ye yönelik haftalık 12 ders saati, haftalık deneme ve yapay zeka destekli yoğun hazırlık programı."
+        "meta_description": "LGS'ye yönelik haftalık +16 ders saati, haftalık deneme ve yapay zeka destekli yoğun hazırlık programı."
       },
-
       "deneme-kulubu": {
         "title": "Deneme Kulübü",
         "description": "Düzenli LGS deneme sınavları, net analizi ve akran öğrenmesi. Tüm sınıflara açık.",
@@ -205,7 +204,7 @@
         "description": "5-8 kişilik VIP sınıflarda haftada 16 saat ders, 45 deneme sınavı ve 40 saat bireysel özel ders.",
         "hero_quote": "YKS'ye giden bu son dönemde her öğrencimiz ayrı ayrı değerlidir; VIP programımızla farkı hissettiriyoruz.",
         "intro": "12. Sınıf VIP programımızda sınıf mevcutlarımız 5-8 öğrenci arasında tutulmaktadır. Öğrencilerimiz hafta sonu iki, hafta içi iki gün olmak üzere toplam 16 saat ders görmektedir. Her öğrenci, birebir soru çözüm saatlerinde öğretmeniyle çalışabilmekte; yıl boyunca toplam 40 ders saati bireysel özel ders alabilmektedir.",
-        "body": "Kunduz programı ile öğrencilerimiz istedikleri yer ve saatte öğretmenlerine soru sorabilmekte, Baykuş kütüphane programıyla akşam öğretmen gözetiminde kütüphanede ders çalışabilmektedir. Her iki haftada bir TYT ve AYT denemesi yapılmakta; deneme analizleri ile eksiklere yönelik haftalık ders çalışma programları oluşturulmaktadır. Bu programlar eğitim koçları tarafından haftalık kontrol edilerek velilerle paylaşılmaktadır. Yapay zeka destekli eğitim modeliyle bireysel soru bankaları oluşturulmakta, dikkat testleri ve motivasyon çalışmaları uygulanmaktadır. Üniversite gezileri, hedef belirleme etkinlikleri, hızlı okuma teknikleri ile yaz kampı ve ara tatil kampları da programın ayrılmaz parçalarıdır. Kurumsal denemelerimizin yanı sıra Türkiye Geneli Deneme Sınavları ile öğrencilerimiz ulusal sıralamalarını da takip edebilmektedir.",
+        "body": "Kunduz programı ile öğrencilerimiz istedikleri yer ve saatte öğretmenlerine soru sorabilmekte, Baykuş kütüphane programıyla (Saat: 19-22 arasında) akşam öğretmen gözetiminde kütüphanede ders çalışabilmektedir. Her iki haftada bir TYT ve AYT denemesi yapılmakta; deneme analizleri ile eksiklere yönelik haftalık ders çalışma programları oluşturulmaktadır. Bu programlar eğitim koçları tarafından haftalık kontrol edilerek velilerle paylaşılmaktadır. Yapay zeka destekli eğitim modeliyle bireysel soru bankaları oluşturulmakta, dikkat testleri ve motivasyon çalışmaları uygulanmaktadır. Üniversite gezileri, hedef belirleme etkinlikleri, hızlı okuma teknikleri ile yaz kampı ve ara tatil kampları da programın ayrılmaz parçalarıdır. Kurumsal denemelerimizin yanı sıra Türkiye Geneli Deneme Sınavları ile öğrencilerimiz ulusal sıralamalarını da takip edebilmektedir.",
         "strategy_title": "VIP 12. Sınıf Eğitim Modeli",
         "phase1_title": "Küçük Grup & Yoğun Ders",
         "phase1_text": "5-8 kişilik sınıflarda haftada 16 saat ders. Her öğrenciye birebir ilgi ve yıllık 40 saat bireysel özel ders imkânı.",
@@ -223,7 +222,7 @@
           "16 ders saati/hafta",
           "45 TYT-AYT denemesi",
           "40 saat bireysel özel ders",
-          "Kunduz & Baykuş programı",
+          "Kunduz & Baykuş programı (Saat: 19-22)",
           "Yapay zeka destekli analiz"
         ],
         "meta_title": "12. Sınıf VIP | Halkalı Final LGS Dershanesi",
@@ -234,7 +233,7 @@
         "description": "5-8 kişilik VIP sınıflarda haftada 18 saat ders, haftada 2 deneme ve 40 saat bireysel özel ders.",
         "hero_quote": "YKS'ye bir yıl daha hazırlanmak yeniden başlamak değil, daha güçlü devam etmektir.",
         "intro": "Mezun VIP programımızda sınıf mevcutlarımız 5-8 öğrenci arasında tutulmaktadır. Öğrencilerimiz toplam 18 saat ders görmekte; her öğrenci birebir soru çözüm saatlerini öğretmeniyle geçirmekte ve yıl boyunca toplam 40 saat bireysel özel ders alabilmektedir.",
-        "body": "Kunduz programı ile öğrencilerimiz istedikleri yer ve saatte öğretmenlerine soru sorabilmekte, Baykuş kütüphane programıyla akşam öğretmen eşliğinde ders çalışabilmektedir. Haftada iki deneme yapılmakta; yapay zeka destekli analiz ile seviyeye uygun kişisel soru bankası oluşturulmaktadır. Haftalık bireysel rehberlik görüşmeleri yapılmakta, eğitim koçları programları kontrol ederek velilere düzenli bilgi vermektedir. Programa Yaz Kampı ile erken başlanmakta; üniversite tanıtımı, motivasyon etkinlikleri, okuduğunu anlama ve hızlı okuma teknikleri ile kamp programları süreç boyunca uygulanmaktadır. VIP sınıflarımızdaki fark, yıl içinde ekstra hizmetlerin ve düşük sınıf mevcudunun sağladığı bireysel dikketle hayata geçmektedir.",
+        "body": "Kunduz programı ile öğrencilerimiz istedikleri yer ve saatte öğretmenlerine soru sorabilmekte, Baykuş kütüphane programıyla (Saat: 19-22 arasında) akşam öğretmen eşliğinde ders çalışabilmektedir. Haftada iki deneme yapılmakta; yapay zeka destekli analiz ile seviyeye uygun kişisel soru bankası oluşturulmaktadır. Haftalık bireysel rehberlik görüşmeleri yapılmakta, eğitim koçları programları kontrol ederek velilere düzenli bilgi vermektedir. Programa Yaz Kampı ile erken başlanmakta; üniversite tanıtımı, motivasyon etkinlikleri, okuduğunu anlama ve hızlı okuma teknikleri ile kamp programları süreç boyunca uygulanmaktadır. VIP sınıflarımızdaki fark, yıl içinde ekstra hizmetlerin ve düşük sınıf mevcudunun sağladığı bireysel dikketle hayata geçmektedir.",
         "strategy_title": "VIP Mezun Eğitim Modeli",
         "phase1_title": "Küçük Grup & Yoğun Ders",
         "phase1_text": "5-8 kişilik sınıflarda haftada 18 saat ders. Yıllık 40 saat bireysel özel ders ve sürekli öğretmen erişimi.",
@@ -342,12 +341,12 @@
   },
   "WhyUs": {
     "title": "Neden Halkalı Final LGS Dershanesi?",
-    "description": "Deneyimli öğretmen kadrosu, bireysel öğrenci takibi, Baykuş Kütüphanesi ve kanıtlanmış LGS başarısıyla fark yaratıyoruz.",
+    "description": "Deneyimli öğretmen kadrosu, bireysel öğrenci takibi, Baykuş Kütüphanesi (Saat: 19-22 arasında) ve kanıtlanmış LGS başarısıyla fark yaratıyoruz.",
     "cta": "Ücretsiz Ön Görüşme Al"
   },
   "LetsWork": {
     "title": "Başlamaya Hazır mısın?",
-    "subtitle": "Ücretsiz ön görüşme ile hedefini belirle",
+    "subtitle": "",
     "available": "Kayıt için müsait",
     "cta": "Hemen Başvur"
   },

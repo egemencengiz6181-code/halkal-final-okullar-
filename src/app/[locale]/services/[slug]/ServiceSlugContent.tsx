@@ -201,6 +201,57 @@ export default function ServiceSlugContent({ slug, images, i18n }: Props) {
             </h2>
             <p className="text-foreground/55 leading-[1.9] text-lg font-light mb-8">{i18n.intro}</p>
             <p className="text-foreground/38 leading-[1.9] text-base font-light">{i18n.body}</p>
+
+            {/* Sınıf sayfaları — Yazılı Destek Programları kutusu */}
+            {['5-sinif', '6-sinif', '7-sinif', '8-sinif'].includes(slug) && (
+              <motion.div
+                custom={2}
+                variants={fadeUp}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true }}
+                className="mt-10 p-6 rounded-2xl border-2 border-[#2E3192]/30 bg-[#2E3192]/5 dark:bg-[#2E3192]/10"
+              >
+                <div className="flex items-center gap-3 mb-3">
+                  <div className="w-2 h-6 rounded-full bg-gradient-to-b from-[#E21F26] to-[#2E3192]" />
+                  <h4 className="text-base font-bold text-slate-900 dark:text-white">Yazılı Destek Programları</h4>
+                </div>
+                <p className="text-sm text-foreground/55 leading-relaxed pl-5">
+                  Okul sınavlarına özel yazılı destek programlarımızla öğrencilerimizin akademik başarısını destekliyoruz.
+                </p>
+              </motion.div>
+            )}
+
+            {/* Deneme Kulübü — Özel Materyal Avantajları kutusu */}
+            {slug === 'deneme-kulubu' && (
+              <motion.div
+                custom={2}
+                variants={fadeUp}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true }}
+                className="mt-10 p-6 rounded-2xl border-2 border-[#E21F26]/30 bg-[#E21F26]/5 dark:bg-[#E21F26]/10"
+              >
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="w-2 h-6 rounded-full bg-gradient-to-b from-[#E21F26] to-[#E65F5F]" />
+                  <h4 className="text-base font-bold text-slate-900 dark:text-white">Özel Materyal Avantajları</h4>
+                </div>
+                <ul className="space-y-3 pl-5">
+                  {[
+                    { label: 'Kişiye Özel Kitap', desc: 'Her öğrencinin eksiklerine göre hazırlanan kişiselleştirilmiş soru kitabı.' },
+                    { label: 'Sıfır Hata Kitapçığı', desc: 'Deneme sınavlarında yapılan hataların derlendiği özel tekrar kitapçığı.' },
+                  ].map((item) => (
+                    <li key={item.label} className="flex items-start gap-3">
+                      <CheckCircle2 className="w-4 h-4 text-[#E21F26] shrink-0 mt-0.5" />
+                      <div>
+                        <span className="text-sm font-semibold text-slate-900 dark:text-white">{item.label}</span>
+                        <p className="text-xs text-foreground/50 mt-0.5">{item.desc}</p>
+                      </div>
+                    </li>
+                  ))}
+                </ul>
+              </motion.div>
+            )}
           </motion.div>
         </div>
       </section>
