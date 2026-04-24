@@ -113,7 +113,7 @@ export default function Navbar() {
             alt="Halkalı Final LGS Dershanesi" 
             width={1540} 
             height={598} 
-            className="h-[44px] md:h-[56px] w-auto object-contain"
+            className="h-[50px] md:h-[80px] w-auto object-contain"
             priority
           />
         </Link>
@@ -252,7 +252,7 @@ export default function Navbar() {
                 alt="Halkalı Final LGS Dershanesi"
                 width={1540}
                 height={598}
-                className="h-[40px] w-auto object-contain"
+                className="h-[48px] w-auto object-contain"
                 priority
               />
             </Link>

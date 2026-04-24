@@ -50,7 +50,7 @@ export default function Footer() {
                 alt="Halkalı Final LGS Dershanesi" 
                 width={1540} 
                 height={598} 
-                className="h-14 w-auto object-contain"
+                className="h-[72px] w-auto object-contain"
               />
             </Link>
             <p className="text-foreground/40 font-light leading-relaxed max-w-xs">

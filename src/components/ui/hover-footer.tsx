@@ -136,7 +136,7 @@ export default function HoverFooter() {
                 alt="Halkalı Final LGS Dershanesi"
                 width={1540}
                 height={598}
-                className="h-14 w-auto object-contain"
+                className="h-[72px] w-auto object-contain"
               />
             </Link>
             <p className="text-sm text-slate-500 dark:text-white/30 leading-relaxed max-w-xs">
