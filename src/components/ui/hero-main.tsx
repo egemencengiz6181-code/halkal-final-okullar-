@@ -3,48 +3,25 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ArrowRight, MessageCircle, Phone, X } from "lucide-react";
-import dynamic from "next/dynamic";
 import { useTranslations } from "next-intl";
-import { useTheme } from "next-themes";
 import Image from "next/image";
 
-const Waves = dynamic(() => import('@/components/ui/waves'), { ssr: false });
-
 const fadeUp = {
-  hidden: { opacity: 0, y: 28 },
+  hidden: { opacity: 0, y: 20 },
   visible: (i: number) => ({
     opacity: 1,
     y: 0,
-    transition: { delay: i * 0.14, duration: 0.72, ease: [0.22, 1, 0.36, 1] },
+    transition: { delay: i * 0.1, duration: 0.5, ease: [0.22, 1, 0.36, 1] },
   }),
 };
 
 export default function HeroMain() {
   const t = useTranslations("HeroMain");
-  const { resolvedTheme } = useTheme();
-  const wavesBg = resolvedTheme === "dark" ? "#000000" : "#f4f4f8";
   const [contactOpen, setContactOpen] = useState(false);
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* ── WAVES BACKGROUND — sadece desktop (mobilde performans tasarrufu) ── */}
-      <div className="hidden md:block absolute inset-0 z-0">
-        <Waves
-          strokeColor="#E21F26"
-          backgroundColor={wavesBg}
-          lineCount={14}
-          waveSpeedX={0.0007}
-          waveSpeedY={0.0005}
-          waveAmpX={36}
-          waveAmpY={22}
-          xGap={16}
-          yGap={34}
-          friction={0.93}
-          tension={0.0035}
-          maxCursorMove={80}
-        />
-      </div>
-      {/* Mobil için sade gradient arka plan */}
-      <div className="md:hidden absolute inset-0 z-0 bg-gradient-to-br from-gray-100 via-gray-50 to-gray-100 dark:from-[#0a0a0f] dark:via-[#0d0005] dark:to-[#0a0a0f]" />
+      {/* ── SIMPLE GRADIENT BACKGROUND ── */}
+      <div className="absolute inset-0 z-0 bg-gradient-to-b from-background via-background to-muted" />
 
       {/* ── SCHOOL IMAGE BACKGROUND ──────────────────────────── */}
       <div className="absolute inset-0 z-[1] overflow-hidden">
@@ -61,18 +38,15 @@ export default function HeroMain() {
       {/* ── VIGNETTE OVERLAY ─────────────────────────────────── */}
       <div className="absolute inset-0 z-[2] bg-[radial-gradient(ellipse_60%_60%_at_50%_50%,transparent_40%,rgba(255,255,255,0.82)_100%)] dark:bg-[radial-gradient(ellipse_60%_60%_at_50%_50%,transparent_40%,rgba(0,0,0,0.82)_100%)]" />
 
-      {/* ── PURPLE GLOW ──────────────────────────────────────── */}
-      <motion.div
-        className="absolute z-[2] w-[720px] h-[720px] rounded-full blur-[160px] opacity-[0.18]"
+      {/* ── SIMPLE GLOW (CSS only, no blur) ──────────────────────────────────────── */}
+      <div
+        className="absolute z-[2] w-[720px] h-[720px] rounded-full opacity-[0.15]"
         style={{
           background: "radial-gradient(circle, #E21F26 0%, #2E3192 50%, transparent 80%)",
           top: "50%",
           left: "50%",
-          x: "-50%",
-          y: "-50%",
+          transform: "translate(-50%, -50%)",
         }}
-        animate={{ scale: [1, 1.07, 0.97, 1] }}
-        transition={{ duration: 14, repeat: Infinity, ease: "easeInOut" }}
       />
 
       {/* ── CONTENT (z-10) ───────────────────────────────────── */}
@@ -83,7 +57,7 @@ export default function HeroMain() {
           variants={fadeUp}
           initial="hidden"
           animate="visible"
-          className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-[#E21F26]/30 bg-[#E21F26]/10 backdrop-blur-sm mb-8"
+          className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-[#E21F26]/30 bg-[#E21F26]/10 mb-8"
         >
           <span className="w-1.5 h-1.5 rounded-full bg-[#E21F26] animate-pulse" />
           <span className="text-xs font-semibold tracking-[0.25em] uppercase text-[#E21F26]/80">
@@ -161,7 +135,7 @@ export default function HeroMain() {
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               transition={{ duration: 0.2 }}
-              className="fixed inset-0 z-[100] bg-black/60 backdrop-blur-sm"
+              className="fixed inset-0 z-[100] bg-black/60"
               onClick={() => setContactOpen(false)}
             />
             {/* Modal */}

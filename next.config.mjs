@@ -4,10 +4,14 @@ const withNextIntl = createNextIntlPlugin('./src/i18n.ts');
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  reactStrictMode: true,
   poweredByHeader: false,
   compress: true,
+  compiler: {
+    removeConsole: process.env.NODE_ENV === 'production' ? { exclude: ['error'] } : false,
+  },
   experimental: {
-    optimizePackageImports: ['lucide-react', 'framer-motion'],
+    optimizePackageImports: ['lucide-react', 'framer-motion', 'next-intl'],
   },
   images: {
     formats: ['image/avif', 'image/webp'],
@@ -41,7 +45,16 @@ const nextConfig = {
         ],
       },
       {
-        source: '/(_next/static|logos|works|okul|okul2)(.*)',
+        source: '/(_next/static|logos|works|okul|okul2)/(.*)',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=31536000, immutable',
+          },
+        ],
+      },
+      {
+        source: '/:path*\\.(js|css|woff2|png|jpg|webp|avif|svg)',
         headers: [
           {
             key: 'Cache-Control',

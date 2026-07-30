@@ -12,7 +12,9 @@ import '../globals.css';
 const inter = Inter({
   subsets: ['latin'],
   display: 'swap',
+  weight: ['400', '500', '600', '700'],
   variable: '--font-inter',
+  fallback: ['system-ui', 'arial'],
 });
 
 export function generateStaticParams() {
@@ -32,6 +34,22 @@ export async function generateMetadata({
   return {
     title: t('title'),
     description: t('description'),
+    keywords: [
+      'LGS Dershanesi',
+      'Halkalı Dershanesi',
+      'Küçükçekmece LGS',
+      'Ortaokul Dershanesi İstanbul',
+      '5. Sınıf Dershanesi',
+      '6. Sınıf Dershanesi',
+      '7. Sınıf Dershanesi',
+      '8. Sınıf LGS Hazırlık',
+      'LGS Kursu Halkalı',
+      'Final LGS',
+      'İstanbul Dershanesi',
+      'LGS Başarı',
+      'LGS Puanı Yükseltme',
+    ],
+    category: 'education',
     alternates: {
       canonical: `${origin}/${locale}`,
     },
@@ -42,11 +60,34 @@ export async function generateMetadata({
       title: t('title'),
       description: t('description'),
       url: `${origin}/${locale}`,
+      images: [
+        {
+          url: `${origin}/logos/final logo png.png`,
+          width: 1200,
+          height: 630,
+          alt: 'Halkalı Final LGS Dershanesi',
+        },
+      ],
     },
     twitter: {
       card: 'summary_large_image',
       title: t('title'),
       description: t('description'),
+    },
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        'max-image-preview': 'large',
+        'max-snippet': -1,
+      },
+    },
+    appleWebApp: {
+      capable: true,
+      statusBarStyle: 'default',
+      title: 'Halkalı Final',
     },
   };
 }
@@ -65,20 +106,32 @@ export default async function LocaleLayout({
     <html lang={locale} className={inter.variable} suppressHydrationWarning>
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "EducationalOrganization",
+              "name": "Halkalı Final LGS Dershanesi",
+              "url": "https://www.halkalifinal.com",
+              "description": "Küçükçekmece Halkalı'da LGS'ye hazırlık, ortaokul ve lise öğrencilerine özel ders programları.",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Halkalı, Küçükçekmece",
+                "addressRegion": "İstanbul",
+                "addressCountry": "TR"
+              },
+              "telephone": "+902124953021",
+              "sameAs": [
+                "https://www.instagram.com/halkali.final.lgs.dershanesi/"
+              ]
+            })
+          }}
+        />
       </head>
       <body className="bg-background text-foreground antialiased selection:bg-primary/30 min-h-screen relative font-sans" suppressHydrationWarning>
-        {/* Arka Plan İkonu (Global Mühür) */}
-        <div className="fixed top-[15%] right-[-250px] w-[900px] h-[900px] opacity-[0.08] rotate-12 pointer-events-none z-0">
-          <Image 
-            src="/logos/final%20logo%20png.png" 
-            alt="" 
-            fill 
-            className="object-contain"
-            loading="lazy"
-            sizes="900px"
-          />
-        </div>
-
         <Providers locale={locale} messages={messages ?? {}}>
             <Navbar />
             <main className="relative z-10 pb-20 md:pb-0">

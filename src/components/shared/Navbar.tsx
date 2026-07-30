@@ -102,7 +102,7 @@ export default function Navbar() {
     <header className="fixed top-0 left-0 right-0 z-50 w-full px-6 md:px-12 py-3 md:py-5 flex items-center justify-between pointer-events-none">
       {/* Mobile glassmorphism background band */}
       <div
-        className="absolute inset-0 md:hidden bg-black/40 backdrop-blur-[25px] border-b border-white/10 pointer-events-none"
+        className="absolute inset-0 md:hidden bg-black/40  border-b border-white/10 pointer-events-none"
         style={{ WebkitBackdropFilter: 'blur(25px)' }}
       />
       {/* Logo - Sol Taraf */}
@@ -121,7 +121,7 @@ export default function Navbar() {
 
       {/* Nav Linkleri - Orta Kısım (sadece desktop) */}
       <div className="pointer-events-auto hidden md:flex flex-col items-center">
-        <div className="flex items-center gap-1 bg-black/30 border border-white/15 backdrop-blur-[25px] py-1 px-1 rounded-full shadow-2xl relative max-w-fit" style={{ WebkitBackdropFilter: 'blur(25px)' }}>
+        <div className="flex items-center gap-1 bg-black/30 border border-white/15  py-1 px-1 rounded-full shadow-2xl relative max-w-fit" style={{ WebkitBackdropFilter: 'blur(25px)' }}>
           {navItems.map((item) => {
             const isActive = activeTab === item.name
 
@@ -148,7 +148,7 @@ export default function Navbar() {
                   {isActive && (
                     <motion.div
                       layoutId="lamp"
-                      className="absolute inset-0 bg-primary/20 border border-primary/30 backdrop-blur-sm rounded-full -z-10"
+                      className="absolute inset-0 bg-primary/20 border border-primary/30  rounded-full -z-10"
                       initial={false}
                       transition={{
                         type: "spring",
@@ -182,7 +182,7 @@ export default function Navbar() {
               transition={{ duration: 0.18 }}
               onMouseEnter={() => openMenu(servicesLabel)}
               onMouseLeave={() => closeMenu()}
-              className="absolute top-full mt-3 w-[640px] p-6 bg-black/75 border border-white/10 backdrop-blur-[30px] rounded-[32px] shadow-2xl z-50"
+              className="absolute top-full mt-3 w-[640px] p-6 bg-black/75 border border-white/10  rounded-[32px] shadow-2xl z-50"
               style={{ WebkitBackdropFilter: 'blur(30px)' }}
             >
               <div className="grid grid-cols-2 gap-4">
@@ -214,7 +214,7 @@ export default function Navbar() {
 
       {/* Hamburger butonu (sadece mobil) */}
       <button
-        className="pointer-events-auto md:hidden flex items-center justify-center w-10 h-10 rounded-full bg-white/15 border border-white/25 backdrop-blur-lg text-white relative [text-shadow:0px_1px_3px_rgba(0,0,0,0.5)]"
+        className="pointer-events-auto md:hidden flex items-center justify-center w-10 h-10 rounded-full bg-white/15 border border-white/25  text-white relative [text-shadow:0px_1px_3px_rgba(0,0,0,0.5)]"
         onClick={() => setIsMobileOpen((v) => !v)}
         aria-label="Menüyü aç/kapat"
       >
@@ -241,7 +241,7 @@ export default function Navbar() {
           animate={{ opacity: 1, x: 0 }}
           exit={{ opacity: 0, x: "100%" }}
           transition={{ type: "spring", stiffness: 260, damping: 30 }}
-          className="fixed inset-0 z-40 flex flex-col bg-black/85 backdrop-blur-[30px] md:hidden"
+          className="fixed inset-0 z-40 flex flex-col bg-black/85  md:hidden"
           style={{ WebkitBackdropFilter: 'blur(30px)' }}
         >
           {/* Üst bar */}

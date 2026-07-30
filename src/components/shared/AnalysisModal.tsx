@@ -44,7 +44,7 @@ function Overlay({ onClose }: { onClose: () => void }) {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
-      className="fixed inset-0 bg-black/70 backdrop-blur-sm z-[200]"
+      className="fixed inset-0 bg-black/70  z-[200]"
       onClick={onClose}
     />
   );
@@ -121,6 +121,18 @@ export default function AnalysisModal() {
     return () => window.removeEventListener('open-analysis-modal', handler);
   }, []);
 
+  // Body scroll lock when modal is open
+  useEffect(() => {
+    if (open) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+    return () => {
+      document.body.style.overflow = '';
+    };
+  }, [open]);
+
   const totalSteps = 3;
 
   const set = (key: keyof FormData, value: string | string[]) =>
@@ -194,7 +206,7 @@ export default function AnalysisModal() {
                 onClick={(e) => e.stopPropagation()}
               >
                 {/* Purple glow top */}
-                <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[400px] h-[200px] bg-[#E21F26]/10 blur-[80px] rounded-full pointer-events-none" />
+                <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[400px] h-[200px] bg-[#E21F26]/10  rounded-full pointer-events-none" />
 
                 <div className="relative p-8">
                   {/* Header */}

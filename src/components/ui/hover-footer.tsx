@@ -122,7 +122,7 @@ export default function HoverFooter() {
     <footer className="relative overflow-hidden border-t border-black/5 dark:border-white/5 bg-transparent">
       {/* Ambient background */}
       <div className="absolute inset-0 pointer-events-none">
-        <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[900px] h-[400px] bg-[#E21F26]/10 blur-[120px] rounded-full" />
+        <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[900px] h-[400px] bg-[#E21F26]/10  rounded-full" />
       </div>
 
       <div className="relative max-w-7xl mx-auto px-6 pt-20 pb-8">
