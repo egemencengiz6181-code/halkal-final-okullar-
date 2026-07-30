@@ -154,22 +154,8 @@ ${formData.notes ? `**Ek Not:** ${formData.notes}` : ""}
 
       {/* Content */}
       <div className="relative z-10 w-full max-w-2xl mx-auto">
-        {/* Logo */}
-        <motion.div
-          custom={0}
-          variants={fadeUp}
-          initial="hidden"
-          animate="visible"
-          className="flex justify-center mb-8"
-        >
-          <Image
-            src="/logos/final logo png.png"
-            alt="Halkalı Final LGS"
-            width={120}
-            height={120}
-            className="object-contain"
-          />
-        </motion.div>
+        {/* Spacer to keep layout */}
+        <div className="h-8 mb-8"></div>
 
         {/* Title */}
         <motion.div
