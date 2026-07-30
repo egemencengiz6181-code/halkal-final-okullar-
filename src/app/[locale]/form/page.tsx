@@ -3,7 +3,6 @@
 import { useState, useEffect, FormEvent } from "react";
 import { motion } from "framer-motion";
 import { CheckCircle2, Loader2, ArrowRight } from "lucide-react";
-import Image from "next/image";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 20 },
